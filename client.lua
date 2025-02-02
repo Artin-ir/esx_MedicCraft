@@ -78,7 +78,7 @@ CreateThread(function(src)
                                 }, function(status)
                                     if not status then
                         
-                                     
+                                    --  add this items to your database
                                         TriggerServerEvent('MCraft:remove', "meth",25)
                                         TriggerServerEvent('MCraft:remove', "marijuana",250)
                                         TriggerServerEvent('MCraft:remove', "coca",150)
